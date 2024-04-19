@@ -3,10 +3,16 @@
 //
 
 #include "Ship.h"
+#include <iostream>
 
 //Constructor & Destructor
 Ship::Ship(size_t x, size_t y, size_t size) : x(x), y(y), size(size), arr_size(0){
-    arr = new size_t[arr_size];
+    try{
+        arr = new size_t[arr_size];    
+    }
+    catch(std::bad_alloc const &ex) {
+        std::cerr << ex.what() << endl;
+    }
 }
 
 Ship::~Ship() {
