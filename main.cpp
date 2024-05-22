@@ -28,5 +28,7 @@ int main() {
     cover_field.print();
     Battle(field, cover_field, player1, player2);
     cout << newline << "Well played!\n";
+    delete player1;
+    delete player2;
     return 0;
 }
