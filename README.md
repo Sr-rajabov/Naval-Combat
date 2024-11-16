@@ -11,11 +11,11 @@ To run the game on your computer, follow these steps:
    ```bash
    git clone https://github.com/Sr-rajabov/Naval-Combat.git
 
-   2. Navigate to the project directory:
+2. Navigate to the project directory:
 
 Bash
+cd battleship
 
-   cd battleship
 3. Compile the project:
 
    To compile the game, use the following command (depending on your development environment):
