@@ -11,24 +11,23 @@ To run the game on your computer, follow these steps:
    ```bash
    git clone https://github.com/Sr-rajabov/Naval-Combat.git
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
-Bash
+```Bash
 cd battleship
 
-3. Compile the project:
+3. **Compile the project:**
 
    To compile the game, use the following command (depending on your development environment):
 
-Bash
+```Bash
 
    g++ -o battleship main.cpp
-4. Run the game:
+4. **Run the game:**
 
    After compilation, you can start the game with:
 
 Bash
-
    ./battleship
 ## Game Rules
 1. Players take turns making shots by specifying coordinates (e.g., A1, B3, etc.).
